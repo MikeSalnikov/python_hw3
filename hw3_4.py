@@ -29,7 +29,7 @@
 #         else:
 #             return factor * factor * x
 
-def my_func(x, y):
-    return 1 if y == 0 else my_func(x, y + 1) * 1 / x
+def my_pow_func(x, y):
+    return 1 if y == 0 else my_pow_func(x, y + 1) * 1 / x
 
-print(my_func(3, -2))
+print(my_pow_func(3, -2))
